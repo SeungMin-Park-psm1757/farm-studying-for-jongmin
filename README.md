@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 팜한농 농비게이션 (Farm Navigation)
 
-## Getting Started
+🔗 **실제 서비스 접속하기: [https://seungmin-park-psm1757.github.io/farm-studying-for-jongmin/](https://seungmin-park-psm1757.github.io/farm-studying-for-jongmin/)**
 
-First, run the development server:
+---
 
+팜한농 비료 제품 정보를 확인하고, 퀴즈와 AI 상담을 통해 비료 전문가가 될 수 있도록 돕는 서비스입니다.
+
+## 주요 기능
+- **비료 지식 백과**: 팜한농의 다양한 비료 제품 검색 및 상세 정보 확인
+- **일일 학습**: 비료 관련 상식을 쌓을 수 있는 퀴즈 모드
+- **AI 전문가 상담**: 구글 제미나이(Gemini) 기반의 비료/영농 상담 채팅
+
+## 시작하기
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 배포 정보
+본 프로젝트는 GitHub Actions를 통해 GitHub Pages로 자동 배포됩니다.
