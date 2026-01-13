@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: '/farm-studying-for-jongmin',
+  trailingSlash: true,
 };
 
 export default nextConfig;
