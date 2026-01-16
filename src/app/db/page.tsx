@@ -96,7 +96,7 @@ export default function FertilizerDB() {
                                     <div className="flex justify-between items-start mb-4">
                                         <div>
                                             <span className={`inline-block px-2 py-1 rounded-md text-xs font-bold mb-2 ${fertilizer.season === 'Basal' ? 'bg-orange-100 text-orange-700' :
-                                                    fertilizer.season === 'Top' ? 'bg-blue-100 text-blue-700' : 'bg-green-100 text-green-700'
+                                                fertilizer.season === 'Top' ? 'bg-blue-100 text-blue-700' : 'bg-green-100 text-green-700'
                                                 }`}>
                                                 {fertilizer.season === 'Basal' ? '밑거름' : fertilizer.season === 'Top' ? '웃거름' : '전천후'}
                                             </span>
@@ -125,7 +125,7 @@ export default function FertilizerDB() {
 
                                         <div className="flex items-start gap-3">
                                             <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0 text-xs font-bold text-gray-600">사용</div>
-                                            <div className="text-sm pt-1.5 text-gray-600 break-keep">{fertilizer.usage}</div>
+                                            <div className="text-sm pt-1.5 text-gray-600 break-keep whitespace-pre-wrap">{fertilizer.usage}</div>
                                         </div>
                                     </div>
 
